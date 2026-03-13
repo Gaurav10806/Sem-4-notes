@@ -1,0 +1,7 @@
+var fs = require('fs')
+// fs.mkdirSync("date-13")
+fs.writeFileSync("date-13/lec1.txt","Module concept")
+var data = fs.readFileSync("date-13/lec1.txt","utf-8")
+console.log(data)
+fs.unlinkSync("date-13/lec1.txt")
+console.log("Prog ended")

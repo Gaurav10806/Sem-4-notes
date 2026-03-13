@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    var data = {
+        "division1": {
+            "name":["Z","B","H"],
+            "age":[10,20,30]
+        },
+        "division2": {
+            "name" :["Y","A","G"],
+            "age":[10,10,20]
+        }
+    }    
+    var d1=data.division1.name;
+    var d2=data.division2.name;
+    var ans=d1.concat(d2);
+    console.log(ans.sort());
+    for(i=0;i<ans.length;i++){
+        console.log("Welcome "+ans[i])
+    }
+</script>
+</head>
+<body>
+    
+</body>
+</html>
