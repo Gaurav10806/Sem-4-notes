@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myFunction() {
+           var obj = '{"name":"Jay","dob":"2020-01-23"}';
+           var data = JSON.parse(obj);
+           console.log(data.dob)
+           var d = new Date(data.dob);
+           document.getElementById("demo").innerHTML = "Birthday of " + data.name + " is " + d;
+        } 
+    </script>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Click me</button>
+</body>
+</html>

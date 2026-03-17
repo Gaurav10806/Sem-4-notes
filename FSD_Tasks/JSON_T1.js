@@ -1,0 +1,49 @@
+ const a= {
+
+    	"Datastructures":
+
+ 	   [
+
+        	{
+
+             	"Name": "tree",
+
+                "course":"Intro",
+
+                "content":["1","B","C"]
+
+        	},
+
+        	{
+
+            	"Name": "tree1",
+
+                "course":"Intro1",
+
+                "content":["1","B","C","d"]
+
+        	}
+
+    	],
+
+    	"xyz":
+
+    	{
+
+            "Name":"Graphics",
+
+            "Topic":["BFS","CDF","Sorting"],
+
+    	}
+
+  	}
+ 
+ 	// console.log(a['Datastructures'][1].Name+'\n\n'+a['Datastructures'][0].Name+'\n\n'+a['xyz'].Name+'\n\n'+a['xyz']['Topic']+'\n\n'+a['xyz'].Topic[0]+'\n\n'+JSON.stringify(a['Datastructures'][1])+'\n\n'+a['Datastructures'][2]+'\n\n'+JSON.stringify(a['xyz']));
+	console.log(a['Datastructures'][1].Name)
+	console.log(a['Datastructures'][0].Name)
+	console.log(a['xyz'].Name)
+	console.log(a['xyz'].Topic)
+	console.log(a['xyz'].Topic[0])
+	console.log(a['Datastructures'][1])
+	console.log(a['Datastructures'][2])
+	console.log(a['xyz'])
